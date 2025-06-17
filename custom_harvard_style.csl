@@ -226,12 +226,8 @@
    </layout>
   </citation>
   <bibliography hanging-indent="true" entry-spacing="0" line-spacing="1">
-   <sort>
-    <key macro="author"/>
-    <key macro="issued" sort="descending"/>
-   </sort>
    <layout>
-    <group prefix="[" suffix="]">
+    <group prefix="[" suffix="] ">
      <text variable="citation-number"/>
     </group>
     <group suffix=".">
