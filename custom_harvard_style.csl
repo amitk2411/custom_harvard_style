@@ -220,10 +220,10 @@
       </group>
       <text value=")"/>
      </group>
-    <group>
-     <text variable="citation-number" vertical-align="sup"/>
-    </group>
-   </layout>
+     <group>
+      <text variable="citation-number" vertical-align="sup"/>
+     </group>
+    </layout>
   </citation>
   <bibliography hanging-indent="true" entry-spacing="0" line-spacing="1">
    <layout>
