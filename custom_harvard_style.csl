@@ -207,17 +207,23 @@
       <key macro="author"/>
       <key macro="issued" sort="descending"/>
     </sort>
-	<layout delimiter="; ">
-  	 <group delimiter=", ">
-      <text macro="author-short"/>
-      <text macro="issued"/>
-      <group delimiter=" ">
-       <label variable="locator" form="short"/>
-       <text variable="locator"/>
+    <layout>
+     <group>
+      <text value="("/>
+      <group delimiter=", ">
+       <text macro="author-short"/>
+       <text macro="issued"/>
+       <group delimiter=" ">
+        <label variable="locator" form="short"/>
+        <text variable="locator"/>
+       </group>
       </group>
+      <text value=")"/>
      </group>
+    <group>
      <text variable="citation-number" vertical-align="sup"/>
-    </layout>
+    </group>
+   </layout>
   </citation>
   <bibliography hanging-indent="true" entry-spacing="0" line-spacing="1">
    <sort>
